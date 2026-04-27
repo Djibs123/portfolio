@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Djiby Samba, étudiant MIAGE spécialisé en développement logiciel, analyse de données et gestion de projet.">
-    <title>Djiby Samba — Portfolio</title>
+    <meta name="description" content="Portfolio de Djiby Samba — Data Scientist & Ingénieur IA. Alternance dès sept. 2026, freelance disponible immédiatement.">
+    <title>Djiby Samba — Data & IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +24,8 @@
             </button>
             <ul class="nav-links" id="nav-links">
                 <li><a href="#about">À propos</a></li>
-                <li><a href="#experience">Parcours</a></li>
+                <li><a href="#alternance">Alternance</a></li>
+                <li><a href="#freelance">Freelance</a></li>
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#skills">Compétences</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -30,130 +34,225 @@
     </header>
 
     <main>
+        <!-- HERO -->
         <section class="hero" aria-labelledby="hero-title">
             <div class="hero-content">
-                <p class="hero-kicker">étudiant MIAGE • Université de Lorraine</p>
-                <h1 id="hero-title">Je conçois des solutions fiables, orientées données et utilisateurs.</h1>
-                <p class="hero-lead">En troisième année de Licence MIAGE, je recherche un stage de fin d'année (8 semaines à partir d'avril 2025) pour mettre en pratique mes compétences en développement logiciel, APIs et valorisation de la donnée.</p>
+                <p class="hero-kicker">Étudiant L3 MIAGE — Université de Lorraine</p>
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Disponible dès sept. 2026
+                </div>
+                <h1 id="hero-title">Data &amp; Intelligence Artificielle</h1>
+                <p class="hero-lead">Je construis des agents IA autonomes, dashboards interactifs et pipelines ML. En alternance à partir de sept. 2026 — disponible en freelance dès maintenant.</p>
                 <div class="hero-cta">
-                    <a class="btn primary" href="mailto:sambadjiby857@gmail.com">Discutons ensemble</a>
+                    <a class="btn primary" href="mailto:sambadjiby857@gmail.com">Me confier une mission</a>
                     <a class="btn ghost" href="#projects">Voir mes projets</a>
                 </div>
             </div>
             <div class="hero-stats" aria-label="Chiffres clés">
                 <article>
-                    <h2>3<sup>e</sup> année</h2>
-                    <p>Licence MIAGE — Université de Lorraine</p>
+                    <h2>Stage LRGP</h2>
+                    <p>Agent IA autonome — CNRS Nancy (en cours)</p>
                 </article>
                 <article>
-                    <h2>5 projets</h2>
-                    <p>Réalisés en équipe avec livrables techniques et métiers</p>
+                    <h2>5+ projets</h2>
+                    <p>Data science, ML et développement full-stack</p>
                 </article>
                 <article>
-                    <h2>+4</h2>
-                    <p>Langues parlées : Peul, Wolof, Français, Anglais</p>
+                    <h2>Nancy · Remote</h2>
+                    <p>Grand Est — télétravail partiel possible</p>
                 </article>
             </div>
         </section>
 
+        <!-- ABOUT -->
         <section id="about" class="section" aria-labelledby="about-title">
             <div class="section-heading">
                 <p class="eyebrow">Mon profil</p>
-                <h2 id="about-title">à propos</h2>
+                <h2 id="about-title">À propos</h2>
             </div>
             <div class="about-grid">
                 <p class="about-text">
-                    Passionné par les données, je m'intéresse aux projets qui exploitent leur potentiel pour résoudre des problématiques concrètes. De la modélisation UML à l'analyse statistique en Python ou R, en passant par l'implémentation d'APIs et de bases relationnelles, je conçois des solutions fiables, performantes et centrées sur la valorisation de l'information.
+                    Étudiant en L3 MIAGE à Nancy, je combine une formation solide en mathématiques appliquées, data science et développement logiciel. Actuellement en stage au LRGP (CNRS), je développe des agents IA autonomes (LangGraph, RAG, LLM locaux) capables d'analyser des données complexes et de générer du code. Ma double compétence tech + métier — statistiques, bases de données, Business Intelligence — me permet d'intervenir de la donnée brute à l'application finale.
                 </p>
                 <ul class="about-details">
                     <li><span>Basé à :</span> Nancy (54000), France</li>
-                    <li><span>Recherche :</span> Stage de 8 semaines dès avril 2025</li>
-                    <li><span>Centres d'intérêt :</span> statistiques, Lecture, sport & nature</li>
+                    <li><span>Alternance :</span> Dès sept. 2026 — 1 mois entreprise / 1 mois école</li>
+                    <li><span>Freelance :</span> Disponible immédiatement</li>
+                    <li><span>Centres d'intérêt :</span> Data, IA, veille tech, sport</li>
                 </ul>
             </div>
         </section>
 
+        <!-- ALTERNANCE -->
+        <section id="alternance" class="section bg-alt" aria-labelledby="alternance-title">
+            <div class="section-heading">
+                <p class="eyebrow">Année scolaire 2026 – 2027</p>
+                <h2 id="alternance-title">Mon projet d'alternance</h2>
+            </div>
+            <div class="alt-cards">
+                <article class="alt-card">
+                    <div class="alt-card-icon">🎯</div>
+                    <h3>Objectif</h3>
+                    <p>Data Analyst</p>
+                    <p>Data Scientist</p>
+                    <p>Développeur IA</p>
+                </article>
+                <article class="alt-card">
+                    <div class="alt-card-icon">📅</div>
+                    <h3>Disponibilité</h3>
+                    <p>Dès septembre 2026</p>
+                    <p>Contrat d'apprentissage</p>
+                    <p>1 mois entreprise / 1 mois école</p>
+                </article>
+                <article class="alt-card">
+                    <div class="alt-card-icon">📍</div>
+                    <h3>Localisation</h3>
+                    <p>Nancy, Metz</p>
+                    <p>Grand Est</p>
+                    <p>Télétravail partiel possible</p>
+                </article>
+                <article class="alt-card">
+                    <div class="alt-card-icon">🧠</div>
+                    <h3>Domaines cibles</h3>
+                    <p>Machine Learning &amp; NLP</p>
+                    <p>Visualisation &amp; BI</p>
+                    <p>ETL &amp; pipelines de données</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FREELANCE -->
+        <section id="freelance" class="section" aria-labelledby="freelance-title">
+            <div class="section-heading">
+                <p class="eyebrow">Disponible maintenant</p>
+                <h2 id="freelance-title">Missions freelance</h2>
+            </div>
+            <div class="freelance-banner">
+                <div class="freelance-services">
+                    <div class="freelance-service">
+                        <span class="service-icon">📊</span>
+                        <div>
+                            <h4>Analyse de données &amp; dashboards</h4>
+                            <p>Python, Power BI, visualisations interactives sur mesure</p>
+                        </div>
+                    </div>
+                    <div class="freelance-service">
+                        <span class="service-icon">🤖</span>
+                        <div>
+                            <h4>Chatbots IA &amp; agents autonomes</h4>
+                            <p>LangGraph, RAG, LLM locaux, assistants métier intelligents</p>
+                        </div>
+                    </div>
+                    <div class="freelance-service">
+                        <span class="service-icon">🐍</span>
+                        <div>
+                            <h4>Scripts Python &amp; automatisation</h4>
+                            <p>ETL, traitement de données, génération de rapports</p>
+                        </div>
+                    </div>
+                    <div class="freelance-service">
+                        <span class="service-icon">🔌</span>
+                        <div>
+                            <h4>APIs REST &amp; intégrations</h4>
+                            <p>TypeScript, Node.js, architecture sécurisée, documentation</p>
+                        </div>
+                    </div>
+                    <div class="freelance-service">
+                        <span class="service-icon">🌐</span>
+                        <div>
+                            <h4>Développement web full-stack</h4>
+                            <p>React, Node.js, sites &amp; applications sur mesure</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="freelance-cta">
+                    <p>Un projet en tête ? Parlons-en.</p>
+                    <a class="btn primary" href="mailto:sambadjiby857@gmail.com">Me confier une mission</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
         <section id="experience" class="section bg-alt" aria-labelledby="exp-title">
             <div class="section-heading">
                 <p class="eyebrow">Mon parcours</p>
-                <h2 id="exp-title">Diplômes, projets et expériences</h2>
+                <h2 id="exp-title">Formations &amp; expériences</h2>
             </div>
             <div class="timeline">
                 <div class="timeline-group">
-                    <h3 class="timeline-heading">Diplômes et Formations</h3>
+                    <h3 class="timeline-heading">Formation</h3>
                     <article class="timeline-item">
                         <header>
-                            <h4>Licence MIAGE — Université de Lorraine, Nancy</h4>
-                            <p class="timeline-meta">Depuis septembre 2023</p>
+                            <h4>Licence MIASHS — Parcours MIAGE</h4>
+                            <p class="timeline-meta">Sept. 2023 — en cours · Futur Master MIAGE</p>
                         </header>
+                        <p>Université de Lorraine — IDMC Nancy</p>
                         <ul class="timeline-details">
-                            <li>Mathématiques appliquées : analyse et optimisation, probabilités et statistiques, calcul intégral.</li>
-                            <li>Informatique : développement web et mobile, programmation orientée objet, bases de données, UML.</li>
-                            <li>Sciences humaines et sociales : comptabilité, gestion commerciale, marketing, droit de l'entreprise et droit informatique.</li>
+                            <li>Mathématiques : Probabilités, Statistiques, Algèbre linéaire, Recherche opérationnelle.</li>
+                            <li>Informatique : Algorithmique, BDD SQL, Réseaux de neurones, Systèmes d'exploitation.</li>
+                            <li>Projets intégrateurs : IA appliquée, data science, développement web full-stack, conception SI.</li>
                         </ul>
                     </article>
                 </div>
 
                 <div class="timeline-group">
-                    <h3 class="timeline-heading">Projets scolaires</h3>
+                    <h3 class="timeline-heading">Projets & expériences Data / IA</h3>
                     <article class="timeline-item">
                         <header>
-                            <h4>Application web SPA – Billetterie Coupe du Monde 2026</h4>
-                            <p class="timeline-meta"> Depuis Octobre 2025</p>
+                            <h4>Stage — Data Scientist / Ingénieur IA <span class="badge-inline badge-green">EN COURS</span></h4>
+                            <p class="timeline-meta">Avr. 2026 — Juin 2026</p>
                         </header>
-                        <p>Développement d’une application web monopage en React et TypeScript simulant la billetterie officielle de la Coupe du Monde 2026.</p>
+                        <p>Laboratoire Réactions et Génie des Procédés (LRGP) — CNRS Nancy (UMR 7274, ENSIC)</p>
                         <ul class="timeline-details">
-                            <li>Intégration d’une API REST pour la gestion des matchs, équipes et tickets.</li>
-                            <li>Fonctionnalités : panier dynamique, filtres de recherche, authentification, persistance locale.</li>
-                            <li>Gestion d’état via Context API et hooks React, conception responsive avec Tailwind CSS.</li>
+                            <li>Développement d'un agent IA autonome capable de piloter des logiciels industriels complexes.</li>
+                            <li>Génération de code, analyse de résultats et auto-correction via système multi-agent.</li>
+                            <li>Stack : Python, LangGraph, smolagents, RAG Qdrant, LLM Qwen2.5-Coder via Ollama, win32com.</li>
                         </ul>
                     </article>
                     <article class="timeline-item">
                         <header>
-                            <h4>API de gestion de parking</h4>
-                            <p class="timeline-meta">Avril 2025 — mai 2025 · 1 mois</p>
+                            <h4>Projet WEBS — Visualisation de données de santé</h4>
+                            <p class="timeline-meta">Avr. – Mai 2025</p>
                         </header>
-                        <p>Création d'une API REST en TypeScript pour orchestrer la communication entre un client web et un serveur sécurisé.</p>
+                        <p>IDMC Nancy — L3 MIAGE (full-stack, équipe de 2)</p>
                         <ul class="timeline-details">
-                            <li>Authentification, gestion des réservations et reporting SQL.</li>
-                            <li>Documentation OpenAPI et tests d'intégration automatisés.</li>
+                            <li>Dashboard interactif avec Chart.js, Bootstrap, Ajax polling.</li>
+                            <li>Infrastructure Docker, API Flask/Python, déployé sur GitHub.</li>
                         </ul>
                     </article>
                     <article class="timeline-item">
                         <header>
-                            <h4>Application Location Vélo</h4>
-                            <p class="timeline-meta">Avril 2025 — mai 2025 · 1 mois</p>
+                            <h4>Projet ANCHOR — Étude de marché MedTech (IA)</h4>
+                            <p class="timeline-meta">Oct. – Déc. 2025</p>
                         </header>
-                        <p>Gestion d'un système de location de vélos électriques avec suivi des disponibilités et tarification dynamique.</p>
+                        <p>IDMC Nancy</p>
                         <ul class="timeline-details">
-                            <li>Python, DAO, SQLite et interface utilisateur Python.</li>
-                            <li>Tableaux de bord, génération de rapports et tests unitaires.</li>
+                            <li>Analyse de l'acceptabilité d'un outil IA dans le secteur médical (start-up).</li>
+                            <li>RStudio, analyse bivariée, gestion des biais d'échantillonnage.</li>
                         </ul>
                     </article>
                     <article class="timeline-item">
                         <header>
-                            <h4>Jeu Finistère Flure</h4>
-                            <p class="timeline-meta">Novembre 2024 — décembre 2024 · 1 mois</p>
+                            <h4>Développement API REST &amp; Applications</h4>
+                            <p class="timeline-meta">Avr. – Mai 2025</p>
                         </header>
-                        <p>Développement d'un jeu Java avec interface graphique Swing pour mettre en pratique la POO et la gestion des événements.</p>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Application SOMMETS</h4>
-                            <p class="timeline-meta">Octobre 2024 — novembre 2024 · 2 mois</p>
-                        </header>
-                        <p>Conception d'une application web de catalogage d'images avec référencement automatique.</p>
+                        <p>IDMC Nancy</p>
                         <ul class="timeline-details">
-                            <li>Stack PHP, JavaScript, HTML/CSS, MySQL.</li>
-                            <li>Architecture modulaire et interface orientée UX.</li>
+                            <li>API Parking sécurisée : TypeScript, architecture REST, gestion CRUD complète.</li>
+                            <li>App Gestion de Location : Python, MySQL, interface utilisateur modulaire.</li>
                         </ul>
                     </article>
                     <article class="timeline-item">
                         <header>
-                            <h4>Jeu eMush (mode simplifié)</h4>
-                            <p class="timeline-meta">Avril 2024 — mai 2024 · 1 mois</p>
+                            <h4>Projet BDD — Application d'enchères en ligne</h4>
+                            <p class="timeline-meta">2025 – 2026</p>
                         </header>
-                        <p>Programmation Java inspirée du jeu eMush : modélisation UML et interactions entre joueurs.</p>
+                        <p>IDMC Nancy — PostgreSQL</p>
+                        <ul class="timeline-details">
+                            <li>Modélisation MCD/MLD complète : entités, héritage, triggers (T1–T7), DDL.</li>
+                            <li>Fonctionnalités : vérification de fonds, clôture automatique, notifications.</li>
+                        </ul>
                     </article>
                 </div>
 
@@ -161,38 +260,28 @@
                     <h3 class="timeline-heading">Expériences professionnelles</h3>
                     <article class="timeline-item">
                         <header>
-                            <h4>Plongeur — Club 3 étoiles Arc en Ciel (Les Karellis)</h4>
-                            <p class="timeline-meta">Depuis juin 2025</p>
+                            <h4>Chef d'équipe — Enjoi &amp; City One, Paris</h4>
+                            <p class="timeline-meta">Nov. 2023 — Nov. 2025</p>
                         </header>
                         <ul class="timeline-details">
-                            <li>Plonge, nettoyage de la vaisselle et du matériel.</li>
-                            <li>Entretien des espaces cuisine et nettoyage de bateau.</li>
+                            <li>Encadrement d'équipes d'agents d'accueil dans des gares parisiennes, gestion des flux voyageurs.</li>
+                            <li>Rigueur, sens du service, coordination terrain.</li>
                         </ul>
                     </article>
                     <article class="timeline-item">
                         <header>
-                            <h4>Chef d'équipe agent d'accueil — Enjoi & City One, Paris</h4>
-                            <p class="timeline-meta">Juin 2024 — septembre 2024</p>
+                            <h4>Employé polyvalent — Burger King &amp; Agent d'accueil — Marina Bercy</h4>
+                            <p class="timeline-meta">Nov. 2023 — Nov. 2025</p>
                         </header>
                         <ul class="timeline-details">
-                            <li>Encadrement d'une équipe d'agents d'accueil dans des gares parisiennes.</li>
-                            <li>Accueil des voyageurs, gestion des flux et coordination avec les équipes terrain.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Agent de nettoyage — Marina Bercy, Paris</h4>
-                            <p class="timeline-meta">Avril 2024 — juin 2024</p>
-                        </header>
-                        <ul class="timeline-details">
-                            <li>Mise en place et entretien des espaces publics.</li>
-                            <li>Nettoyage de bateaux et soutien logistique lors des événements.</li>
+                            <li>Travail en équipe, relation client, rigueur opérationnelle.</li>
                         </ul>
                     </article>
                 </div>
             </div>
         </section>
 
+        <!-- PROJECTS -->
         <section id="projects" class="section" aria-labelledby="projects-title">
             <div class="section-heading">
                 <p class="eyebrow">Mes réalisations</p>
@@ -200,90 +289,139 @@
             </div>
             <div class="cards">
                 <article class="card">
+                    <div class="card-tags">
+                        <span class="tag tag-green">EN COURS</span>
+                        <span class="tag tag-blue">IA</span>
+                        <span class="tag tag-purple">Python</span>
+                    </div>
+                    <h3>Agent IA Autonome — LRGP CNRS</h3>
+                    <p>Système multi-agent capable de piloter des logiciels industriels, générer du code et s'auto-corriger.</p>
+                    <ul>
+                        <li>LangGraph, smolagents, RAG Qdrant</li>
+                        <li>LLM Qwen2.5-Coder via Ollama</li>
+                        <li>Déployé en environnement de recherche CNRS</li>
+                    </ul>
+                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le profil GitHub</a>
+                </article>
+                <article class="card">
+                    <div class="card-tags">
+                        <span class="tag tag-blue">Data Viz</span>
+                        <span class="tag tag-cyan">Docker</span>
+                        <span class="tag tag-purple">Flask</span>
+                    </div>
+                    <h3>WEBS — Données de Santé</h3>
+                    <p>Dashboard interactif de données de santé — projet L3 MIAGE full-stack en équipe de 2.</p>
+                    <ul>
+                        <li>Chart.js, Bootstrap, Ajax polling</li>
+                        <li>API Flask/Python, Docker, GitHub</li>
+                    </ul>
+                    <a href="https://github.com/Djibs123/WEBS" target="_blank" rel="noopener noreferrer">Voir le code</a>
+                </article>
+                <article class="card">
+                    <div class="card-tags">
+                        <span class="tag tag-orange">R</span>
+                        <span class="tag tag-blue">IA</span>
+                        <span class="tag tag-green">Stats</span>
+                    </div>
+                    <h3>ANCHOR — Étude MedTech IA</h3>
+                    <p>Analyse de l'acceptabilité d'un outil IA dans le secteur médical pour une start-up.</p>
+                    <ul>
+                        <li>RStudio, analyse bivariée</li>
+                        <li>Gestion des biais d'échantillonnage</li>
+                    </ul>
+                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le profil GitHub</a>
+                </article>
+                <article class="card">
+                    <div class="card-tags">
+                        <span class="tag tag-purple">TypeScript</span>
+                        <span class="tag tag-cyan">REST API</span>
+                    </div>
                     <h3>API de gestion de parking</h3>
-                    <p>Service REST modulaire et reporting SQL.</p>
+                    <p>Service REST sécurisé et modulaire avec reporting SQL et documentation OpenAPI.</p>
                     <ul>
                         <li>TypeScript, Node.js, MySQL</li>
-                        <li>Tests d'intégration</li>
+                        <li>Tests d'intégration automatisés</li>
                     </ul>
-                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le code</a>
+                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le profil GitHub</a>
                 </article>
                 <article class="card">
-                    <h3>Location Vélo</h3>
-                    <p>Application desktop pour gérer la location de vélos électriques, les itinéraires et la maintenance préventive.</p>
+                    <div class="card-tags">
+                        <span class="tag tag-cyan">PostgreSQL</span>
+                        <span class="tag tag-blue">BDD</span>
+                    </div>
+                    <h3>BDD Enchères en ligne</h3>
+                    <p>Modélisation complète d'un système d'enchères avec triggers et clôture automatique.</p>
                     <ul>
-                        <li>Python, SQLite</li>
-                        <li>Authentification, DAO, tableaux de bord et export de rapports</li>
+                        <li>PostgreSQL, MCD/MLD complet</li>
+                        <li>7 triggers : vérification de fonds, notifications</li>
                     </ul>
-                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le code</a>
-                </article>
-                <article class="card">
-                    <h3>SOMMETS</h3>
-                    <p>Plateforme web de catalogage d'images avec recherche multi-critères et interface responsive.</p>
-                    <ul>
-                        <li>PHP, JavaScript, MySQL</li>
-                        <li>Architecture MVC et UX centrée utilisateur</li>
-                    </ul>
-                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le code</a>
+                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le profil GitHub</a>
                 </article>
             </div>
         </section>
 
+        <!-- SKILLS -->
         <section id="skills" class="section bg-alt" aria-labelledby="skills-title">
             <div class="section-heading">
-                <p class="eyebrow">Ce que je ma&icirc;trise</p>
+                <p class="eyebrow">Ce que je maîtrise</p>
                 <h2 id="skills-title">Compétences</h2>
             </div>
-            <div class="skills-grid">
-                <article>
-                    <h3>Langages & frameworks</h3>
-                    <ul>
-                        <li>Java, Python, PHP, JavaScript, TypeScript</li>
-                        <li>Node.js, Swing</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Données & modélisation</h3>
-                    <ul>
-                        <li>SQL, MySQL, bases relationnelles</li>
-                        <li>UML, modélisation métier, statistiques (R, Python)</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Outils</h3>
-                    <ul>
-                        <li>Git, GitHub, Trello</li>
-                        <li>VS Code, IntelliJ, Netbeans, Figma, Bruno, Hono</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Compétences transverses</h3>
-                    <ul>
-                        <li>Gestion de projet</li>
-                        <li>Sens du service & relation client</li>
-                        <li>Animation d'équipe et coordination</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Langues</h3>
-                    <ul>
-                        <li>Peul — langue maternelle</li>
-                        <li>Wolof — courant</li>
-                        <li>Français — bilingue</li>
-                        <li>Anglais — débutant</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Centres d'intérêts</h3>
-                    <ul>
-                        <li>Observer et comprendre le monde qui m'entoure</li>
-                        <li>Sport & bien-être</li>
-                        <li>Lecture et veille technologique</li>
-                    </ul>
-                </article>
+            <div class="skills-wrapper">
+                <div class="skills-primary">
+                    <p class="skills-group-label">Data &amp; Intelligence Artificielle</p>
+                    <div class="skills-tags">
+                        <span class="skill-tag skill-blue">Python</span>
+                        <span class="skill-tag skill-blue">Pandas</span>
+                        <span class="skill-tag skill-blue">NumPy</span>
+                        <span class="skill-tag skill-blue">Scikit-learn</span>
+                        <span class="skill-tag skill-blue">Machine Learning</span>
+                        <span class="skill-tag skill-blue">Réseaux de neurones</span>
+                        <span class="skill-tag skill-blue">Matplotlib / Seaborn</span>
+                        <span class="skill-tag skill-green">R / RStudio</span>
+                        <span class="skill-tag skill-cyan">SQL — PostgreSQL, MySQL</span>
+                        <span class="skill-tag skill-purple">LangGraph</span>
+                        <span class="skill-tag skill-purple">smolagents</span>
+                        <span class="skill-tag skill-purple">RAG — Qdrant, bge-m3</span>
+                        <span class="skill-tag skill-purple">LLM via Ollama</span>
+                        <span class="skill-tag skill-purple">NLP</span>
+                        <span class="skill-tag skill-orange">Power BI / Power Query</span>
+                        <span class="skill-tag skill-orange">Excel Expert — VBA, TCD</span>
+                    </div>
+                </div>
+                <div class="skills-secondary">
+                    <div class="skills-grid">
+                        <article>
+                            <h3>Développement web</h3>
+                            <ul>
+                                <li>React, Node.js, TypeScript, JavaScript</li>
+                                <li>API REST sécurisées</li>
+                                <li>Docker, GitHub, CI/CD</li>
+                                <li>Chart.js, Bootstrap, Ajax</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Analyse &amp; outils</h3>
+                            <ul>
+                                <li>Statistiques descriptives &amp; bivariées</li>
+                                <li>Modélisation BDD (MCD/MLD)</li>
+                                <li>Algorithmique avancée</li>
+                                <li>Automatisation de processus</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Langues</h3>
+                            <ul>
+                                <li>Français — langue maternelle</li>
+                                <li>Wolof — langue maternelle</li>
+                                <li>Anglais — intermédiaire (B1/B2)</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- CONTACT -->
         <section id="contact" class="section" aria-labelledby="contact-title">
             <div class="section-heading">
                 <p class="eyebrow">Entrons en contact</p>
@@ -292,12 +430,12 @@
             <div class="contact-grid">
                 <article>
                     <h3>Email</h3>
-                    <p>Prêt à discuter d'un projet, d'un stage ou d'une mission freelance.</p>
+                    <p>Alternance, freelance ou simple question — réponse sous 24h.</p>
                     <a class="contact-link" href="mailto:sambadjiby857@gmail.com">sambadjiby857@gmail.com</a>
                 </article>
                 <article>
-                    <h3>Adresse</h3>
-                    <p>136 avenue de la Libération<br>Nancy, 54000 — France</p>
+                    <h3>Localisation</h3>
+                    <p>Nancy (54000) — Grand Est, France<br>Télétravail partiel possible</p>
                 </article>
                 <article>
                     <h3>Téléphone</h3>
@@ -306,7 +444,7 @@
                 </article>
                 <article>
                     <h3>GitHub</h3>
-                    <p>Consultez mes projets, contributions et travaux en cours.</p>
+                    <p>Projets, contributions et travaux en cours.</p>
                     <a class="contact-link" href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">github.com/Djibs123</a>
                 </article>
             </div>
@@ -314,7 +452,7 @@
     </main>
 
     <footer class="site-footer">
-        <p>&copy; 2025 Djiby Samba. Construit avec passion et curiosité.</p>
+        <p>&copy; 2026 Djiby Samba — Data &amp; Intelligence Artificielle</p>
     </footer>
 
     <script src="script.js" defer></script>
