@@ -15,7 +15,7 @@ Je recherche une **alternance de 2 ans en Data & Intelligence Artificielle dès 
 
 ## Technologies
 
-`Python` · `TypeScript` · `NestJS` · `PostgreSQL` · `LangGraph` · `smolagents` · `RAG` · `Ollama` · `Docker` · `Flask`
+`Python` · `TypeScript` · `NestJS` · `PostgreSQL` · `LangGraph` · `RAG` · `Ollama` · `Docker` · `Flask`
 
 ## Consulter le portfolio
 
