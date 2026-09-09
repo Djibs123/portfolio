@@ -11,7 +11,6 @@ Le site présente des réalisations où la logique métier, le backend, l'interf
 ## Projets mis en avant
 
 - **COFE Agent — LRGP / CNRS** : assistant de génération et validation de flowsheets industriels avec LangGraph, RAG/ChromaDB et plus de 1 000 tests automatisés.
-- **Histoires du Coran** : PWA de lecture et narration audio, avec import DOCX vers JSON et contrôle de l'intégrité des références au build.
 - **Action ou Vérité** : jeu PWA local et multijoueur, moteur déterministe, WebSocket, Durable Objects et 60 tests.
 - **SGEE Portal** : portail étudiant full-stack React/Vite et NestJS, Prisma/PostgreSQL, authentification et workflow documentaire.
 - **CROUS Watcher** : service de surveillance multi-zone avec alertes Telegram, dashboard d'administration et déploiement 24/7.
