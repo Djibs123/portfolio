@@ -1,21 +1,27 @@
 # Portfolio — Djiby Samba
 
-Portfolio professionnel de **Djiby Samba**, étudiant en Master MIAGE à l'Université de Lorraine, spécialisé en Data Science, systèmes multi-agents LLM, RAG et automatisation.
+Portfolio professionnel de **Djiby Samba**, étudiant en Master MIAGE à l'Université de Lorraine et développeur Data & IA.
 
 ## Objectif
 
-Je recherche une **alternance de 2 ans en Data & Intelligence Artificielle dès septembre 2026**, notamment sur des missions de Data Science, ingénierie IA, automatisation ou développement d'applications data.
+Disponible immédiatement pour une **alternance de deux ans** en Data, IA ou développement produit, au rythme d'un mois en entreprise et un mois à l'école.
+
+Le site présente des réalisations où la logique métier, le backend, l'interface, les tests et le déploiement sont traités ensemble.
 
 ## Projets mis en avant
 
-- **COFE Agent — LRGP/CNRS** : système multi-agent LLM pilotant des simulations industrielles à partir de requêtes en langage naturel, avec auto-correction et plus de 1 000 tests automatisés validés.
-- **SGEE Portal** : API NestJS/TypeScript modulaire connectant un futur frontend, PostgreSQL/Prisma et un système legacy ASP.
-- **Générateur de topologies membranaires** : génération et validation logique d'architectures de séparation en série, parallèle, recyclage ou bypass.
-- **WEBS** : dashboard de données de santé avec Flask, Chart.js et Docker.
+- **COFE Agent — LRGP / CNRS** : assistant de génération et validation de flowsheets industriels avec LangGraph, RAG/ChromaDB et plus de 1 000 tests automatisés.
+- **Histoires du Coran** : PWA de lecture et narration audio, avec import DOCX vers JSON et contrôle de l'intégrité des références au build.
+- **Action ou Vérité** : jeu PWA local et multijoueur, moteur déterministe, WebSocket, Durable Objects et 60 tests.
+- **SGEE Portal** : portail étudiant full-stack React/Vite et NestJS, Prisma/PostgreSQL, authentification et workflow documentaire.
+- **CROUS Watcher** : service de surveillance multi-zone avec alertes Telegram, dashboard d'administration et déploiement 24/7.
+- **WEBS** : projet académique réalisé en équipe de deux, dashboard de données de santé avec Flask, Chart.js et Docker.
+
+Les projets privés ne sont pas liés publiquement : le site propose une prise de contact pour une présentation.
 
 ## Technologies
 
-`Python` · `TypeScript` · `NestJS` · `PostgreSQL` · `LangGraph` · `RAG` · `Ollama` · `Docker` · `Flask`
+`Python` · `TypeScript` · `React` · `NestJS` · `PostgreSQL` · `LangGraph` · `RAG` · `ChromaDB` · `PWA` · `Docker` · `Flask`
 
 ## Consulter le portfolio
 
@@ -27,6 +33,4 @@ Je recherche une **alternance de 2 ans en Data & Intelligence Artificielle dès 
 - [GitHub](https://github.com/Djibs123)
 - [Email](mailto:sambadjiby857@gmail.com)
 
----
-
-Site statique responsive développé en HTML, CSS et JavaScript, puis déployé avec GitHub Pages.
+Site statique responsive en HTML, CSS et JavaScript, déployé avec GitHub Pages.

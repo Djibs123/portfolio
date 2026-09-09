@@ -1,415 +1,117 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Djiby Samba — étudiant en Master MIAGE, spécialisé en Data Science, agents IA, RAG et automatisation. Recherche une alternance Data & IA de 2 ans dès septembre 2026.">
-    <title>Djiby Samba — Data & IA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Djiby Samba, développeur Data & IA : systèmes RAG, applications full-stack sécurisées, PWA et automatisation. Disponible immédiatement pour une alternance de 2 ans.">
+  <meta name="author" content="Djiby Samba">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Djiby Samba — Développeur Data & IA">
+  <meta property="og:description" content="Des systèmes Data & IA fiables, de la logique métier au déploiement. Disponible immédiatement pour une alternance.">
+  <meta property="og:url" content="https://djibs123.github.io/portfolio/">
+  <link rel="canonical" href="https://djibs123.github.io/portfolio/">
+  <title>Djiby Samba — Développeur Data & IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Djiby Samba","url":"https://djibs123.github.io/portfolio/","email":"mailto:sambadjiby857@gmail.com","jobTitle":"Développeur Data & IA","sameAs":["https://www.linkedin.com/in/djiby-samba","https://github.com/Djibs123"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Université de Lorraine"},"knowsAbout":["Intelligence artificielle","RAG","Python","TypeScript","React","NestJS","PWA"]}
+  </script>
 </head>
 <body>
-    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="logo" href="#top" aria-label="Djiby Samba, retour en haut de page">DJ<span>·</span>S</a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Ouvrir le menu</span><span class="burger-bar"></span><span class="burger-bar"></span><span class="burger-bar"></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Profil</a></li><li><a href="#alternance">Alternance</a></li><li><a href="#projects">Projets</a></li><li><a href="#skills">Compétences</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header class="site-header" id="top">
-        <nav class="navbar" aria-label="Navigation principale">
-            <a class="logo" href="#top">Djiby Samba</a>
-            <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav-links">
-                <span class="sr-only">Ouvrir le menu</span>
-                <span class="burger-bar"></span>
-                <span class="burger-bar"></span>
-                <span class="burger-bar"></span>
-            </button>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#alternance">Alternance</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content reveal">
+        <p class="hero-kicker">Master MIAGE · Université de Lorraine</p>
+        <p class="hero-badge"><span class="badge-dot"></span>Disponible immédiatement · alternance 2 ans</p>
+        <h1 id="hero-title">Développeur <em>Data &amp; IA</em><br>— systèmes fiables de bout en bout</h1>
+        <p class="hero-lead">Je construis des produits où l'IA, la logique métier et l'interface tiennent ensemble : un flow industriel validé, un portail documentaire sécurisé ou une PWA utilisable hors ligne.</p>
+        <div class="hero-cta"><a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Alternance%20Data%20%26%20IA">Parlons alternance <span aria-hidden="true">↗</span></a><a class="btn ghost" href="#projects">Explorer les projets</a></div>
+      </div>
+      <aside class="hero-proof reveal" aria-label="Repères clés">
+        <p class="proof-label">Repères concrets</p>
+        <div class="proof-item"><strong>1 000+</strong><span>tests automatisés sur un pipeline IA industriel</span></div>
+        <div class="proof-item"><strong>6</strong><span>projets, du RAG au full-stack sécurisé</span></div>
+        <div class="proof-item"><strong>Immédiat</strong><span>Nancy, Grand Est ou télétravail partiel</span></div>
+      </aside>
+    </section>
 
-    <main>
-        <!-- HERO -->
-        <section class="hero" aria-labelledby="hero-title">
-            <div class="hero-content">
-                <p class="hero-kicker">Étudiant en Master MIAGE — Université de Lorraine</p>
-                <div class="hero-badge">
-                    <span class="badge-dot"></span>
-                    Disponible dès sept. 2026
-                </div>
-                    <h1 id="hero-title">Data Scientist &amp; Ingénieur IA</h1>
-                <p class="hero-lead">Je conçois des systèmes multi-agents, des pipelines RAG et des applications data capables de transformer un besoin métier en solution fiable et testée. Je recherche une alternance Data &amp; IA de 2 ans dès septembre 2026.</p>
-                <div class="hero-cta">
-                    <a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Alternance%20Data%20%26%20IA">Échanger sur une alternance</a>
-                    <a class="btn ghost" href="#projects">Voir mes projets</a>
-                </div>
-            </div>
-            <div class="hero-stats" aria-label="Chiffres clés">
-                <article>
-                    <h2>1 000+ tests</h2>
-                    <p>Pipeline agentique validé et industrialisé</p>
-                </article>
-                <article>
-                    <h2>Double compétence</h2>
-                    <p>Data &amp; IA · développement logiciel · métier</p>
-                </article>
-                <article>
-                    <h2>Nancy · Remote</h2>
-                    <p>Grand Est — télétravail partiel possible</p>
-                </article>
-            </div>
-        </section>
+    <section id="about" class="section reveal" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">01 — Profil</p><h2 id="about-title">Concevoir, valider, livrer.</h2></div>
+      <div class="about-grid">
+        <p class="about-text">Au LRGP / CNRS, j'ai développé un assistant qui transforme une spécification métier en flowsheet <code>.fsd</code>, puis distingue la vérification structurelle de la validation dans COFEStand. Sur d'autres produits, j'ai conçu un dépôt de documents sécurisé, une veille de logements avec alertes Telegram et une PWA de lecture hors ligne. Mon fil conducteur : rendre un système exploitable, testable et compréhensible.</p>
+        <ul class="about-details"><li><span>Formation</span>Master MIAGE — IDMC Nancy</li><li><span>Recherche</span>Alternance Data, IA ou développement produit</li><li><span>Rythme</span>1 mois entreprise / 1 mois école</li><li><span>Mobilité</span>Nancy, Metz, Grand Est et télétravail partiel</li></ul>
+      </div>
+    </section>
 
-        <!-- ABOUT -->
-        <section id="about" class="section" aria-labelledby="about-title">
-            <div class="section-heading">
-                <p class="eyebrow">Mon profil</p>
-                <h2 id="about-title">À propos</h2>
-            </div>
-            <div class="about-grid">
-                <p class="about-text">
-                    Étudiant en Master MIAGE à Nancy, je combine data science, intelligence artificielle, développement logiciel et compréhension des besoins métier. Au LRGP (CNRS), j'ai conçu puis industrialisé un système multi-agent capable de piloter des simulations de génie des procédés en langage naturel. J'interviens de la donnée brute à l'application finale, avec une attention particulière portée à la fiabilité, aux tests et à l'automatisation.
-                </p>
-                <ul class="about-details">
-                    <li><span>Basé à :</span> Nancy (54000), France</li>
-                    <li><span>Alternance :</span> Dès sept. 2026 — 1 mois entreprise / 1 mois école</li>
-                    <li><span>Durée :</span> 2 ans — contrat d'apprentissage</li>
-                    <li><span>Centres d'intérêt :</span> Data, IA, veille tech, sport</li>
-                </ul>
-            </div>
-        </section>
+    <section id="alternance" class="section section-tinted reveal" aria-labelledby="alternance-title">
+      <div class="section-heading"><p class="eyebrow">02 — Alternance</p><h2 id="alternance-title">Disponible maintenant pour construire des outils utiles.</h2></div>
+      <div class="alt-cards">
+        <article class="alt-card"><span class="card-index">01</span><h3>Contrat</h3><p>Apprentissage · 2 ans<br>Rythme 1 mois / 1 mois</p></article>
+        <article class="alt-card"><span class="card-index">02</span><h3>Rôles visés</h3><p>Développeur IA<br>Data Scientist · Data Engineer</p></article>
+        <article class="alt-card"><span class="card-index">03</span><h3>Ce que j'apporte</h3><p>Prototypage, APIs, automatisation, tests et mise en production.</p></article>
+        <article class="alt-card"><span class="card-index">04</span><h3>Disponibilité</h3><p><strong>Immédiate</strong><br>Nancy, Grand Est ou hybride</p></article>
+      </div>
+    </section>
 
-        <!-- ALTERNANCE -->
-        <section id="alternance" class="section bg-alt" aria-labelledby="alternance-title">
-            <div class="section-heading">
-                <p class="eyebrow">Année scolaire 2026 – 2027</p>
-                <h2 id="alternance-title">Mon projet d'alternance</h2>
-            </div>
-            <div class="alt-cards">
-                <article class="alt-card">
-                    <div class="alt-card-icon">🎯</div>
-                    <h3>Objectif</h3>
-                    <p>Data Analyst</p>
-                    <p>Data Scientist</p>
-                    <p>Développeur IA</p>
-                </article>
-                <article class="alt-card">
-                    <div class="alt-card-icon">📅</div>
-                    <h3>Disponibilité</h3>
-                    <p>Dès septembre 2026</p>
-                    <p>Contrat d'apprentissage</p>
-                    <p>1 mois entreprise / 1 mois école</p>
-                </article>
-                <article class="alt-card">
-                    <div class="alt-card-icon">📍</div>
-                    <h3>Localisation</h3>
-                    <p>Nancy, Metz</p>
-                    <p>Grand Est</p>
-                    <p>Télétravail partiel possible</p>
-                </article>
-                <article class="alt-card">
-                    <div class="alt-card-icon">🧠</div>
-                    <h3>Domaines cibles</h3>
-                    <p>Machine Learning &amp; NLP</p>
-                    <p>Visualisation &amp; BI</p>
-                    <p>ETL &amp; pipelines de données</p>
-                </article>
-            </div>
-        </section>
+    <section class="section reveal" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">03 — Parcours</p><h2 id="experience-title">Une base métier, data et logiciel.</h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><p class="timeline-meta">Depuis septembre 2026</p><h3>Master MIAGE</h3><p>Université de Lorraine · IDMC Nancy. Formation à l'interface des systèmes d'information, de la data et du développement logiciel.</p></article>
+        <article class="timeline-item"><p class="timeline-meta">Avril — juin 2026</p><h3>Stage Data Scientist / Ingénieur IA · LRGP / CNRS</h3><p>Conception d'un pipeline agentique pilotant des simulations de génie des procédés : LangGraph, RAG, Python, validation COFEStand et rapports JSON.</p></article>
+        <article class="timeline-item"><p class="timeline-meta">Septembre 2023 — août 2026</p><h3>Licence MIASHS · parcours MIAGE</h3><p>Université de Lorraine · IDMC Nancy. Statistiques, bases de données, réseaux de neurones, algorithmique et conception de systèmes d'information.</p></article>
+      </div>
+    </section>
 
-        <!-- EXPERIENCE -->
-        <section id="experience" class="section bg-alt" aria-labelledby="exp-title">
-            <div class="section-heading">
-                <p class="eyebrow">Mon parcours</p>
-                <h2 id="exp-title">Formations &amp; expériences</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-group">
-                    <h3 class="timeline-heading">Formation</h3>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Master MIAGE</h4>
-                            <p class="timeline-meta">Depuis sept. 2026</p>
-                        </header>
-                        <p>Université de Lorraine — IDMC Nancy</p>
-                        <ul class="timeline-details">
-                            <li>Parcours à l'interface du management des systèmes d'information, de la data et du développement logiciel.</li>
-                            <li>Recherche d'une alternance de 2 ans en Data Science, Intelligence Artificielle ou ingénierie des données.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Licence MIASHS — Parcours MIAGE</h4>
-                            <p class="timeline-meta">Sept. 2023 — Août 2026 · diplôme obtenu</p>
-                        </header>
-                        <p>Université de Lorraine — IDMC Nancy</p>
-                        <ul class="timeline-details">
-                            <li>Probabilités, statistiques, bases de données, réseaux de neurones, algorithmique et conception SI.</li>
-                        </ul>
-                    </article>
-                </div>
+    <section id="projects" class="section section-tinted reveal" aria-labelledby="projects-title">
+      <div class="section-heading projects-heading"><div><p class="eyebrow">04 — Réalisations</p><h2 id="projects-title">Six projets. Des contraintes réelles.</h2></div><p>Ouvrez une étude de cas pour voir les choix techniques et les preuves.</p></div>
+      <div class="cards">
+        <article class="project-card featured"><div class="card-top"><span class="project-number">01</span><span class="tag">IA INDUSTRIELLE</span></div><h3>COFE Agent <span>· LRGP / CNRS</span></h3><p>Un assistant convertit une spécification métier en flowsheet COFE/COCO, contrôlé puis exploitable.</p><ul><li>Génération XML-first et modèles validés</li><li>RAG sur connaissances procédés</li><li>1 000+ tests automatisés</li></ul><button class="detail-trigger" type="button" data-dialog="cofe-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+        <article class="project-card"><div class="card-top"><span class="project-number">02</span><span class="tag">PWA</span></div><h3>Histoires du Coran</h3><p>Une PWA de lecture et d'écoute dont la chaîne éditoriale bloque les références incomplètes au build.</p><ul><li>DOCX vers JSON automatisé</li><li>272 chapitres · 3 h 21 d'audio</li><li>Lecture hors ligne progressive</li></ul><button class="detail-trigger" type="button" data-dialog="coran-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+        <article class="project-card"><div class="card-top"><span class="project-number">03</span><span class="tag">TEMPS RÉEL</span></div><h3>Action ou Vérité</h3><p>Un jeu local et multijoueur où le même moteur déterministe applique les règles côté client et serveur.</p><ul><li>580 cartes originales</li><li>WebSocket et Durable Objects</li><li>60 tests Vitest</li></ul><button class="detail-trigger" type="button" data-dialog="aov-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+        <article class="project-card"><div class="card-top"><span class="project-number">04</span><span class="tag">FULL-STACK</span></div><h3>SGEE Portal</h3><p>Un portail étudiant avec authentification, dépôt de documents, validation administrative et téléchargements sécurisés.</p><ul><li>React/Vite + NestJS</li><li>Prisma 7 et PostgreSQL</li><li>Workflow de dossiers</li></ul><button class="detail-trigger" type="button" data-dialog="sgee-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+        <article class="project-card"><div class="card-top"><span class="project-number">05</span><span class="tag">AUTOMATISATION</span></div><h3>CROUS Watcher</h3><p>Un service de veille multi-zone qui détecte les logements redevenus disponibles et alerte via Telegram.</p><ul><li>Surveillance résiliente</li><li>Dashboard d'administration</li><li>Déploiement 24/7</li></ul><button class="detail-trigger" type="button" data-dialog="crous-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+        <article class="project-card"><div class="card-top"><span class="project-number">06</span><span class="tag">DATA VIZ</span></div><h3>WEBS <span>· en équipe</span></h3><p>Un dashboard santé pour explorer des indicateurs actualisés par API, réalisé à deux dans un cadre académique.</p><ul><li>Flask/Python et Chart.js</li><li>Ajax et Bootstrap</li><li>Infrastructure Docker</li></ul><button class="detail-trigger" type="button" data-dialog="webs-dialog">Voir l'étude de cas <span aria-hidden="true">↗</span></button></article>
+      </div>
+    </section>
 
-                <div class="timeline-group">
-                    <h3 class="timeline-heading">Projets & expériences Data / IA</h3>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Stage — Data Scientist / Ingénieur IA</h4>
-                            <p class="timeline-meta">Avr. 2026 — Juin 2026 · prolongé jusqu'au 26 juin</p>
-                        </header>
-                        <p>Laboratoire Réactions et Génie des Procédés (LRGP) — CNRS Nancy (UMR 7274, ENSIC)</p>
-                        <ul class="timeline-details">
-                            <li>Conception d'un système multi-agent LLM pilotant des simulateurs industriels à partir de requêtes naturelles.</li>
-                            <li>Pipeline : « L'IA planifie — Python exécute — COFEStand valide », avec auto-correction et rapports JSON.</li>
-                            <li>Plus de 1 000 tests automatisés validés ; Python, LangGraph, RAG, Ollama et intégration COM.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>SGEE Portal — API de portail étudiant</h4>
-                            <p class="timeline-meta">2026</p>
-                        </header>
-                        <p>Projet étudiant — interface de démarches SGEE</p>
-                        <ul class="timeline-details">
-                            <li>API NestJS reliant un futur frontend, PostgreSQL/Prisma et un système legacy ASP.</li>
-                            <li>Architecture modulaire : authentification, étudiants et portail étudiant.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Projet WEBS — Visualisation de données de santé</h4>
-                            <p class="timeline-meta">Avr. – Mai 2025</p>
-                        </header>
-                        <p>IDMC Nancy — L3 MIAGE (full-stack, équipe de 2)</p>
-                        <ul class="timeline-details">
-                            <li>Dashboard interactif avec Chart.js, Bootstrap, Ajax polling.</li>
-                            <li>Infrastructure Docker, API Flask/Python, déployé sur GitHub.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Projet ANCHOR — Étude de marché MedTech (IA)</h4>
-                            <p class="timeline-meta">Oct. – Déc. 2025</p>
-                        </header>
-                        <p>IDMC Nancy</p>
-                        <ul class="timeline-details">
-                            <li>Analyse de l'acceptabilité d'un outil IA dans le secteur médical (start-up).</li>
-                            <li>RStudio, analyse bivariée, gestion des biais d'échantillonnage.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Développement API REST &amp; Applications</h4>
-                            <p class="timeline-meta">Avr. – Mai 2025</p>
-                        </header>
-                        <p>IDMC Nancy</p>
-                        <ul class="timeline-details">
-                            <li>API Parking sécurisée : TypeScript, architecture REST, gestion CRUD complète.</li>
-                            <li>App Gestion de Location : Python, MySQL, interface utilisateur modulaire.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Projet BDD — Application d'enchères en ligne</h4>
-                            <p class="timeline-meta">2025 – 2026</p>
-                        </header>
-                        <p>IDMC Nancy — PostgreSQL</p>
-                        <ul class="timeline-details">
-                            <li>Modélisation MCD/MLD complète : entités, héritage, triggers (T1–T7), DDL.</li>
-                            <li>Fonctionnalités : vérification de fonds, clôture automatique, notifications.</li>
-                        </ul>
-                    </article>
-                </div>
+    <section class="section reveal" aria-labelledby="delivery-title">
+      <div class="section-heading"><p class="eyebrow">05 — Livraison</p><h2 id="delivery-title">Ce que je sais livrer.</h2></div>
+      <div class="delivery-grid"><article><span>01</span><h3>Produit full-stack</h3><p>Interfaces React, API NestJS, authentification et workflows de documents sécurisés.</p></article><article><span>02</span><h3>Système IA / RAG</h3><p>Orchestration d'agents, recherche contextuelle, validation et rapports exploitables.</p></article><article><span>03</span><h3>PWA et temps réel</h3><p>Usage hors ligne, audio continu, sessions persistantes et synchronisation WebSocket.</p></article><article><span>04</span><h3>Veille et données</h3><p>Automatisation, alertes, dashboards et suivi d'état résilient.</p></article></div>
+    </section>
 
-                <div class="timeline-group">
-                    <h3 class="timeline-heading">Expériences professionnelles</h3>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Chef d'équipe — Enjoi &amp; City One, Paris</h4>
-                            <p class="timeline-meta">Nov. 2023 — Nov. 2025</p>
-                        </header>
-                        <ul class="timeline-details">
-                            <li>Encadrement d'équipes d'agents d'accueil dans des gares parisiennes, gestion des flux voyageurs.</li>
-                            <li>Rigueur, sens du service, coordination terrain.</li>
-                        </ul>
-                    </article>
-                    <article class="timeline-item">
-                        <header>
-                            <h4>Employé polyvalent — Burger King &amp; Agent d'accueil — Marina Bercy</h4>
-                            <p class="timeline-meta">Nov. 2023 — Nov. 2025</p>
-                        </header>
-                        <ul class="timeline-details">
-                            <li>Travail en équipe, relation client, rigueur opérationnelle.</li>
-                        </ul>
-                    </article>
-                </div>
-            </div>
-        </section>
+    <section id="skills" class="section section-tinted reveal" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">06 — Compétences</p><h2 id="skills-title">Des outils utilisés dans les projets.</h2></div>
+      <div class="skills-grid"><article><h3>IA, data, automatisation</h3><p>Python · LangGraph · RAG · ChromaDB · Ollama · Qwen2.5-Coder · NumPy · scikit-learn · PostgreSQL · Pytest</p></article><article><h3>Développement full-stack</h3><p>TypeScript · React · NestJS · Prisma · Node.js · Flask · PHP · REST · JWT · WebSocket · Firebase</p></article><article><h3>Produit et déploiement</h3><p>PWA · Vite · Docker · Cloudflare Workers · Durable Objects · Caddy · systemd · GitHub · Vitest · Jest</p></article></div>
+    </section>
 
-        <!-- PROJECTS -->
-        <section id="projects" class="section" aria-labelledby="projects-title">
-            <div class="section-heading">
-                <p class="eyebrow">Mes réalisations</p>
-                <h2 id="projects-title">Projets phares</h2>
-            </div>
-            <div class="cards">
-                <article class="card">
-                    <div class="card-tags">
-                        <span class="tag tag-green">VALIDÉ</span>
-                        <span class="tag tag-blue">IA</span>
-                        <span class="tag tag-purple">Python</span>
-                    </div>
-                    <h3>COFE Agent — LRGP CNRS</h3>
-                    <p>Système multi-agent LLM qui transforme une demande métier en simulation industrielle exécutable, vérifiée et documentée.</p>
-                    <ul>
-                        <li>Planification, génération, exécution et auto-correction</li>
-                        <li>RAG sur plus de 400 composants et connaissances métier</li>
-                        <li>Plus de 1 000 tests automatisés validés</li>
-                    </ul>
-                    <a href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">Voir le profil GitHub</a>
-                </article>
-                <article class="card">
-                    <div class="card-tags">
-                        <span class="tag tag-purple">NestJS</span>
-                        <span class="tag tag-cyan">PostgreSQL</span>
-                        <span class="tag tag-blue">API REST</span>
-                    </div>
-                    <h3>SGEE Portal</h3>
-                    <p>API modulaire pour moderniser l'accès des étudiants aux démarches SGEE et préparer l'intégration avec un système existant.</p>
-                    <ul>
-                        <li>NestJS, TypeScript, Prisma et PostgreSQL</li>
-                        <li>Authentification et domaine étudiant structurés</li>
-                    </ul>
-                    <a href="mailto:sambadjiby857@gmail.com?subject=Projet%20SGEE%20Portal">Demander une présentation</a>
-                </article>
-                <article class="card">
-                    <div class="card-tags">
-                        <span class="tag tag-purple">Python</span>
-                        <span class="tag tag-blue">Algorithmique</span>
-                        <span class="tag tag-green">PSE</span>
-                    </div>
-                    <h3>Générateur de topologies membranaires</h3>
-                    <p>Moteur logique autonome qui génère et valide des architectures de séparation avant toute simulation numérique.</p>
-                    <ul>
-                        <li>Séries, parallèles, recyclages et bypass internes</li>
-                        <li>Validation structurelle et export textuel reproductible</li>
-                    </ul>
-                    <a href="mailto:sambadjiby857@gmail.com?subject=Générateur%20de%20topologies">Demander une démonstration</a>
-                </article>
-                <article class="card">
-                    <div class="card-tags">
-                        <span class="tag tag-blue">Data Viz</span>
-                        <span class="tag tag-cyan">Docker</span>
-                        <span class="tag tag-purple">Flask</span>
-                    </div>
-                    <h3>WEBS — Données de santé</h3>
-                    <p>Dashboard full-stack interactif pour explorer et suivre des indicateurs de santé en temps réel.</p>
-                    <ul>
-                        <li>API Flask/Python et infrastructure Docker</li>
-                        <li>Chart.js, Bootstrap et actualisation Ajax</li>
-                    </ul>
-                    <a href="https://github.com/Djibs123/WEBS" target="_blank" rel="noopener noreferrer">Voir le code</a>
-                </article>
-            </div>
-        </section>
+    <section id="contact" class="section contact-section reveal" aria-labelledby="contact-title">
+      <div><p class="eyebrow">07 — Contact</p><h2 id="contact-title">Un besoin Data, IA ou produit ?</h2><p>Je suis disponible immédiatement pour une alternance de deux ans.</p></div>
+      <div class="contact-actions"><a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Alternance%20Data%20%26%20IA">sambadjiby857@gmail.com <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.linkedin.com/in/djiby-samba" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="#top">DJ<span>·</span>S</a><p>© 2026 Djiby Samba · Développeur Data &amp; IA</p></footer>
 
-        <!-- SKILLS -->
-        <section id="skills" class="section bg-alt" aria-labelledby="skills-title">
-            <div class="section-heading">
-                <p class="eyebrow">Ce que je maîtrise</p>
-                <h2 id="skills-title">Compétences</h2>
-            </div>
-            <div class="skills-wrapper">
-                <div class="skills-primary">
-                    <p class="skills-group-label">Data &amp; Intelligence Artificielle</p>
-                    <div class="skills-tags">
-                        <span class="skill-tag skill-blue">Python</span>
-                        <span class="skill-tag skill-blue">Pandas</span>
-                        <span class="skill-tag skill-blue">NumPy</span>
-                        <span class="skill-tag skill-blue">Scikit-learn</span>
-                        <span class="skill-tag skill-blue">Machine Learning</span>
-                        <span class="skill-tag skill-blue">Réseaux de neurones</span>
-                        <span class="skill-tag skill-blue">Matplotlib / Seaborn</span>
-                        <span class="skill-tag skill-green">R / RStudio</span>
-                        <span class="skill-tag skill-cyan">SQL — PostgreSQL, MySQL</span>
-                        <span class="skill-tag skill-purple">LangGraph</span>
-                        <span class="skill-tag skill-purple">RAG — Qdrant, bge-m3</span>
-                        <span class="skill-tag skill-purple">LLM via Ollama</span>
-                        <span class="skill-tag skill-purple">NLP</span>
-                        <span class="skill-tag skill-orange">Power BI / Power Query</span>
-                        <span class="skill-tag skill-orange">Excel Expert — VBA, TCD</span>
-                    </div>
-                </div>
-                <div class="skills-secondary">
-                    <div class="skills-grid">
-                        <article>
-                            <h3>Développement web</h3>
-                            <ul>
-                                <li>React, Node.js, TypeScript, JavaScript</li>
-                                <li>API REST sécurisées</li>
-                                <li>Docker, GitHub, CI/CD</li>
-                                <li>Chart.js, Bootstrap, Ajax</li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3>Analyse &amp; outils</h3>
-                            <ul>
-                                <li>Statistiques descriptives &amp; bivariées</li>
-                                <li>Modélisation BDD (MCD/MLD)</li>
-                                <li>Algorithmique avancée</li>
-                                <li>Automatisation de processus</li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3>Langues</h3>
-                            <ul>
-                                <li>Français — langue maternelle</li>
-                                <li>Wolof — langue maternelle</li>
-                                <li>Anglais — intermédiaire (B1/B2)</li>
-                            </ul>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CONTACT -->
-        <section id="contact" class="section" aria-labelledby="contact-title">
-            <div class="section-heading">
-                <p class="eyebrow">Entrons en contact</p>
-                <h2 id="contact-title">Contact</h2>
-            </div>
-            <div class="contact-grid">
-                <article>
-                    <h3>Email</h3>
-                    <p>Une opportunité d'alternance en Data ou IA ? Échangeons.</p>
-                    <a class="contact-link" href="mailto:sambadjiby857@gmail.com">sambadjiby857@gmail.com</a>
-                </article>
-                <article>
-                    <h3>Localisation</h3>
-                    <p>Nancy (54000) — Grand Est, France<br>Télétravail partiel possible</p>
-                </article>
-                <article>
-                    <h3>LinkedIn</h3>
-                    <p>Parcours, projets et publications professionnelles.</p>
-                    <a class="contact-link" href="https://www.linkedin.com/in/djiby-samba" target="_blank" rel="noopener noreferrer">linkedin.com/in/djiby-samba</a>
-                </article>
-                <article>
-                    <h3>GitHub</h3>
-                    <p>Projets, contributions et travaux en cours.</p>
-                    <a class="contact-link" href="https://github.com/Djibs123" target="_blank" rel="noopener noreferrer">github.com/Djibs123</a>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <p>&copy; 2026 Djiby Samba — Data &amp; Intelligence Artificielle</p>
-    </footer>
-
-    <script src="script.js" defer></script>
+  <dialog class="project-dialog" id="cofe-dialog" aria-labelledby="cofe-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas COFE Agent">×</button><p class="eyebrow">COFE Agent · LRGP / CNRS</p><h2 id="cofe-title">Du besoin procédé au flowsheet vérifié.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Créer un assistant capable de produire et transformer des flowsheets COFE/COCO pour la séparation membranaire à partir d'une spécification métier.</p><h3>Réalisation</h3><p>Deux parcours : transformation de modèles validés et génération XML-first, avec enrichissement automatique du procédé et génération de topologies.</p></div><div><h3>Décisions & preuves</h3><ul><li>Python 3.11, LangGraph, RAG/ChromaDB, Ollama et Qwen2.5-Coder 7B.</li><li>La validation structurelle est séparée de la validation réelle dans COFE/COFEStand.</li><li>Plus de 1 000 tests automatisés validés.</li></ul><p class="case-stack">Python · LangGraph · RAG · ChromaDB · Ollama · Pytest</p></div></div><a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Présentation%20COFE%20Agent">Demander une présentation <span aria-hidden="true">↗</span></a></div></dialog>
+  <dialog class="project-dialog" id="coran-dialog" aria-labelledby="coran-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas Histoires du Coran">×</button><p class="eyebrow">Produit personnel · PWA</p><h2 id="coran-title">Un contenu éditorial vérifié, lisible hors ligne.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Rendre les récits des 25 prophètes accessibles en lecture et en écoute, en conservant la traçabilité des sources.</p><h3>Réalisation</h3><p>Une chaîne d'import transforme les sources Word en contenu structuré et indexé pour la recherche.</p></div><div><h3>Décisions & preuves</h3><ul><li>Le build échoue si une citation perd sa référence ou si l'authenticité d'un hadith n'est pas établie.</li><li>272 chapitres pour 3 h 21 de narration, avec mise en évidence synchronisée.</li><li>PWA, Media Session API et lecture hors ligne progressive.</li></ul><p class="case-stack">React 19 · TypeScript · Vite · Zustand · Zod · Cloudflare Workers</p></div></div><a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Présentation%20Histoires%20du%20Coran">Demander une présentation <span aria-hidden="true">↗</span></a></div></dialog>
+  <dialog class="project-dialog" id="aov-dialog" aria-labelledby="aov-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas Action ou Vérité">×</button><p class="eyebrow">Produit personnel · Temps réel</p><h2 id="aov-title">Un moteur de jeu identique, local ou en ligne.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Proposer une expérience PWA pour 2 à 12 joueurs, en local comme en multijoueur, sans dupliquer les règles métier.</p><h3>Réalisation</h3><p>Un moteur pur <code>réduire(état, action) → état</code> est exécuté dans le navigateur ou derrière une interface de transport serveur.</p></div><div><h3>Décisions & preuves</h3><ul><li>580 cartes originales et 60 tests Vitest.</li><li>WebSocket, Cloudflare Workers et Durable Objects.</li><li>Serveur autoritaire, salons persistants et reprise après déconnexion.</li></ul><p class="case-stack">React 19 · TypeScript · Zustand · WebSocket · Durable Objects · Vitest</p></div></div><a class="btn primary" href="mailto:sambadjiby857@gmail.com?subject=Présentation%20Action%20ou%20Vérité">Demander une présentation <span aria-hidden="true">↗</span></a></div></dialog>
+  <dialog class="project-dialog" id="sgee-dialog" aria-labelledby="sgee-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas SGEE Portal">×</button><p class="eyebrow">Projet étudiant · Full-stack</p><h2 id="sgee-title">Un parcours documentaire étudiant complet.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Moderniser les démarches SGEE dans une application accessible aux étudiants comme aux administrateurs.</p><h3>Réalisation</h3><p>Un monorepo réunit une interface React/Vite et une API NestJS pour déposer, annuler et valider des documents.</p></div><div><h3>Décisions & preuves</h3><ul><li>Prisma 7 et PostgreSQL pour le modèle de données.</li><li>JWT, cookies, bcrypt, validation des entrées et limitation de débit.</li><li>Téléchargements sécurisés et workflow d'administration modulaire.</li></ul><p class="case-stack">React · Vite · NestJS · Prisma · PostgreSQL · JWT</p></div></div><a class="btn primary" href="https://github.com/Djibs123/sgee-portal" target="_blank" rel="noopener noreferrer">Voir le code <span aria-hidden="true">↗</span></a></div></dialog>
+  <dialog class="project-dialog" id="crous-dialog" aria-labelledby="crous-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas CROUS Watcher">×</button><p class="eyebrow">Produit personnel · Automatisation</p><h2 id="crous-title">Détecter un logement, puis alerter au bon moment.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Surveiller plusieurs zones et campagnes CROUS, malgré les indisponibilités temporaires des sources.</p><h3>Réalisation</h3><p>Le service détecte les disponibilités nouvelles ou réapparues et les transmet aux abonnés approuvés sur Telegram.</p></div><div><h3>Décisions & preuves</h3><ul><li>Nouvelles tentatives indépendantes pour une surveillance multi-zone résiliente.</li><li>Dashboard de validation des abonnements.</li><li>Écritures atomiques, verrouillage des fichiers et déploiement 24/7 documenté.</li></ul><p class="case-stack">Python · Flask · Telegram · Waitress · Caddy · systemd</p></div></div><a class="btn primary" href="https://github.com/Djibs123/researchloge" target="_blank" rel="noopener noreferrer">Voir le code <span aria-hidden="true">↗</span></a></div></dialog>
+  <dialog class="project-dialog" id="webs-dialog" aria-labelledby="webs-title"><div class="dialog-content"><button class="dialog-close" type="button" aria-label="Fermer l'étude de cas WEBS">×</button><p class="eyebrow">Projet académique · Équipe de deux</p><h2 id="webs-title">Explorer des indicateurs de santé dans un dashboard.</h2><div class="case-grid"><div><h3>Contexte</h3><p>Réaliser à deux un tableau de bord permettant de suivre et d'explorer des données de santé.</p><h3>Réalisation</h3><p>Une application full-stack consomme une API Flask/Python et restitue les données sous forme de graphiques interactifs.</p></div><div><h3>Décisions & preuves</h3><ul><li>Actualisation asynchrone par Ajax et visualisations Chart.js.</li><li>Interface Bootstrap et API Flask/Python.</li><li>Infrastructure Docker documentée.</li></ul><p class="case-stack">JavaScript · Flask · Chart.js · Bootstrap · Docker</p></div></div><a class="btn primary" href="https://github.com/Djibs123/WEBS" target="_blank" rel="noopener noreferrer">Voir le code <span aria-hidden="true">↗</span></a></div></dialog>
+  <script src="script.js" defer></script>
 </body>
 </html>
