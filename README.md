@@ -28,7 +28,7 @@ Les projets privés ne sont pas liés publiquement : le site propose une prise d
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/djiby-samba)
+- [LinkedIn](https://www.linkedin.com/in/djiby-samba-178753306)
 - [GitHub](https://github.com/Djibs123)
 - [Email](mailto:sambadjiby857@gmail.com)
 
