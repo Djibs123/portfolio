@@ -1,1 +1,6 @@
 /WhatsApp Image 2025-09-11 à 17.23.28_9c73e957.jpg
+
+# Secrets locaux (ne jamais commiter)
+.env
+.env.*
+!.env.example
